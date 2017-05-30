@@ -1,0 +1,381 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/oliver/SWP/ABP/target/scala-2.12/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.1
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+19 items
+/home/oliver/SWP/ABP/src/main/scala/AST.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/Expression.class
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/Interpreter$.class
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/Interpreter.class
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ExpParser.class
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ParseProgram$.class
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ParseProgram.class
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/SWPInterpreter$.class
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/SWPInterpreter.class
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ExpBoolean$.class
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ExpBoolean.class
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ExpFunction$.class
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ExpFunction.class
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ExpInteger$.class
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ExpInteger.class
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ExpList$.class
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ExpList.class
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/ExpValue.class
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/PrettyPrinter$.class
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/target/scala-2.12/classes/PrettyPrinter.class
+binary dependencies:
+11 items
+/home/oliver/SWP/ABP/src/main/scala/AST.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> /home/oliver/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> /home/oliver/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.5.jar
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> /home/oliver/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> /home/oliver/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.5.jar
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> /home/oliver/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+8 items
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> /home/oliver/SWP/ABP/src/main/scala/AST.scala
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> /home/oliver/SWP/ABP/src/main/scala/Value.scala
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> /home/oliver/SWP/ABP/src/main/scala/AST.scala
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> /home/oliver/SWP/ABP/src/main/scala/AST.scala
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> /home/oliver/SWP/ABP/src/main/scala/Interpreter.scala
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> /home/oliver/SWP/ABP/src/main/scala/Parser.scala
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> /home/oliver/SWP/ABP/src/main/scala/Value.scala
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> /home/oliver/SWP/ABP/src/main/scala/AST.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+19 items
+/home/oliver/SWP/ABP/src/main/scala/AST.scala -> Expression
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Interpreter
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Interpreter$
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> ExpParser
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> ParseProgram
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> ParseProgram$
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> SWPInterpreter
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> SWPInterpreter$
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpBoolean
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpBoolean$
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpFunction
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpFunction$
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpInteger
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpInteger$
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpList
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpList$
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpValue
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> PrettyPrinter
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> PrettyPrinter$
+used names:
+213 items
+/home/oliver/SWP/ABP/src/main/scala/AST.scala -> AnyRef
+/home/oliver/SWP/ABP/src/main/scala/AST.scala -> scala
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> !=
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> &&
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> ->
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> <init>
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> <repeated>
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> ==
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> ???
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> A
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Any
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> AnyRef
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> ArrowAssoc
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> B
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Boolean
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Environment
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> ExpBoolean
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> ExpValue
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Expression
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Function1
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Int
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Interpreter
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Iterable
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> List
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Map
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> MatchError
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Nothing
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Object
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Predef
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Some
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> String
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> T0
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> Tuple2
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> VariableName
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> _root_
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> apply
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> asInstanceOf
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> b
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> builtinFunctionNames
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> builtinFunctions
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> collection
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> get
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> immutable
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> isEmpty
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> isInstanceOf
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> keys
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> lengthCompare
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> package
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> scala
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> toList
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> unapplySeq
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> unary_!
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> <init>
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> ???
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> Any
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> CharSequence
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> ExpParser
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> Expression
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> JavaTokenParsers
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> Nothing
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> Object
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> ParseProgram
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> ParseResult
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> Parser
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> Predef
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> String
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> T
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> combinator
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> expression
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> parseAll
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> parsing
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> s
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> scala
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> util
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> !=
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> &&
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> <init>
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> <repeated>
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> ==
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> A
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Any
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> AnyRef
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Array
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> B
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Boolean
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> BufferedSource
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> C
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Codec
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Console
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Either
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Environment
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> ExpValue
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Expression
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Function1
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> IndexedSeq
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Int
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Interpreter
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Left
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Map
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> MatchError
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Nothing
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Object
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Option
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> ParseProgram
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> ParseResult
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Predef
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> PrettyPrinter
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Right
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> SWPInterpreter
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Source
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> String
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> T
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Tuple2
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> Unit
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> apply
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> args
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> close
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> evaluateProgram
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> exp
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> fallbackSystemCodec
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> file
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> fileString
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> fold
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> fromFile
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> get
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> identity
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> interpret
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> io
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> isEmpty
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> lengthCompare
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> mkString
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> package
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> parse
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> parseResult
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> print
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> println
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> program
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> result
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> scala
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> source
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> successful
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> toString
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> unapplySeq
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> unary_!
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> unchecked
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> &&
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> +
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> <init>
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ==
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> A
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> AbstractFunction1
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> AbstractFunction2
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Any
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> AnyRef
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> B
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Boolean
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> CanBuildFrom
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Coll
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpBoolean
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpFunction
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpInteger
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpList
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ExpValue
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Expression
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Function1
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> IndexOutOfBoundsException
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Int
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Iterator
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> List
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> MatchError
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> None
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Nothing
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Object
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Option
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Predef
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> PrettyPrinter
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Product
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ScalaRunTime
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Serializable
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Some
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Statics
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> String
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> T
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> T0
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> T1
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> T2
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> That
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> Tuple2
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> _hashCode
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> _root_
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> _toString
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> asInstanceOf
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> b
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> body
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> canBuildFrom
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> eq
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> finalizeHash
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> i
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> immutable
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> isInstanceOf
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> map
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> mix
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> mkString
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> package
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> parameters
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> print
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> runtime
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> scala
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> toString
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> typedProductIterator
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> value
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> xs
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> ||
+product stamps:
+19 items
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ExpBoolean$.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ExpBoolean.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ExpFunction$.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ExpFunction.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ExpInteger$.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ExpInteger.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ExpList$.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ExpList.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ExpParser.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ExpValue.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/Expression.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/Interpreter$.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/Interpreter.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ParseProgram$.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/ParseProgram.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/PrettyPrinter$.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/PrettyPrinter.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/SWPInterpreter$.class -> lastModified(1496082210000)
+/home/oliver/SWP/ABP/target/scala-2.12/classes/SWPInterpreter.class -> lastModified(1496082210000)
+source stamps:
+5 items
+/home/oliver/SWP/ABP/src/main/scala/AST.scala -> hash(a4b640fc3aaa9b7ddd6072e53b8b5094260d7de6)
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> hash(5bd1f7aeea546c4f663954e96b9ccfb9686c91c7)
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> hash(ebf8bb6f0d8ec74edf3fe6bb990eedb681a039f5)
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> hash(113cafe435b669375e2af900b25079d2dbb96bf2)
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> hash(6b02e58f6a1758556d85ebe38b2e9eafcd4bf9ac)
+binary stamps:
+3 items
+/home/oliver/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.5.jar -> lastModified(1481918386000)
+/home/oliver/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar -> lastModified(1480936165000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1494039098000)
+class names:
+3 items
+/home/oliver/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.5.jar -> scala.util.parsing.combinator.Parsers
+/home/oliver/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar -> scala.runtime.AbstractFunction2
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+5 items
+/home/oliver/SWP/ABP/src/main/scala/AST.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw58LuCwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAUc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwEzsko3QABm5vdGlmeXNxAH4ADCM0JjF0AAR3YWl0c3EAfgAM3mksUnQADSRhc0luc3RhbmNlT2ZzcQB+AAwHCBK2dAAGZXF1YWxzc3EAfgAMTEy1WHQADGFzSW5zdGFuY2VPZnNxAH4ADKV1sih0AAxzeW5jaHJvbml6ZWRzcQB+AAwFNpD7dAANJGlzSW5zdGFuY2VPZnNxAH4ADBW4dIB0AApFeHByZXNzaW9uc3EAfgAMf66tpXQACW5vdGlmeUFsbHNxAH4ADCsbny50AAxpc0luc3RhbmNlT2ZzcQB+AAwxqlo8dAACPT1zcQB+AAyQZYnCdAAFY2xvbmVzcQB+AAy96COrdAAIdG9TdHJpbmdzcQB+AAyzmlOYdAACIT1zcQB+AAxAEiX3dAAIZ2V0Q2xhc3NzcQB+AAxG2e8xdAACbmVzcQB+AAyclF5bdAACZXFzcQB+AAy86wpsdAACIyNzcQB+AAz7Lo46dAAIZmluYWxpemVzcQB+AAzG010bdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgA/eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAJcQB+AB11cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAVUcmFpdHVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AVnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgA/TAAJaW5oZXJpdGVkcQB+AD9MAAdwYXJlbnRzcQB+AD94cQB+AFtzcQB+AFZ1cQB+ADoAAAAAc3EAfgBWdXEAfgA6AAAAAHNxAH4AVnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AWnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AWnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ac3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AdHNxAH4AZ3QAA0FueXNxAH4Aa3NxAH4AbnVxAH4AcQAAAAJzcQB+AHN0AAVzY2FsYXEAfgB6dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVxVcctDdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQALi9ob21lL29saXZlci9TV1AvQUJQL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSktkD8Oqqbfd1gcuU7i1CUJg195g==
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwnNsg4gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwSIuZrXQABm5vdGlmeXNxAH4ADNdM3AV0AAtFbnZpcm9ubWVudHNxAH4ADPed6n50AAR3YWl0c3EAfgAMiiW/7XQADSRhc0luc3RhbmNlT2ZzcQB+AAy7J7AcdAAGZXF1YWxzc3EAfgAMqsXEYHQAEGJ1aWx0aW5GdW5jdGlvbnNzcQB+AAwj/1JhdAAMYXNJbnN0YW5jZU9mc3EAfgAMcxv/L3QADHN5bmNocm9uaXplZHNxAH4ADCHoRPN0AAtJbnRlcnByZXRlcnNxAH4ADD3rqtR0AA0kaXNJbnN0YW5jZU9mc3EAfgAMPAN9HnQADFZhcmlhYmxlTmFtZXNxAH4ADMuepJF0AAlub3RpZnlBbGxzcQB+AAxhnnJXdAAMaXNJbnN0YW5jZU9mc3EAfgAMlbR7EHQAAj09c3EAfgAMx2LxBXQABWNsb25lc3EAfgAM0tnFrXQACHRvU3RyaW5nc3EAfgAMQ+ab83QAAiE9c3EAfgAMFZFhhnQACGdldENsYXNzc3EAfgAMc572YXQAAm5lc3EAfgAMKiEDZnQAAmVxc3EAfgAM98oF1nQACWludGVycHJldHNxAH4ADCKYizp0AAIjI3NxAH4ADIKBR710AAhmaW5hbGl6ZXNxAH4ADCjEGSh0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AH3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGNzcQB+AF51cQB+AEIAAAAAc3EAfgBedXEAfgBCAAAAAHNxAH4AXnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ae3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AfHNxAH4Ab3QAA0FueXNxAH4Ac3NxAH4AdnVxAH4AeQAAAAJzcQB+AHt0AAVzY2FsYXEAfgCCdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVxVcctDdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQALi9ob21lL29saXZlci9TV1AvQUJQL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRb0feu6lRsT2Y5VOlrnM+5aGyRxw==
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwoK/cuwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAANzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBpGhZydAAHbGl0ZXJhbHNxAH4AC6nWW7h0AAZhY2NlcHRzcQB+AAu9Ppk6dAAFcmVnZXh1cQB+AAkAAABzc3EAfgALx98FenQAEHdpdGhFcnJvck1lc3NhZ2VzcQB+AAvOmCm4dAAKd2l0aEZpbHRlcnNxAH4ACxq+4Gh0AAJeXnNxAH4AC4yjlA90AA9mbGF0TWFwV2l0aE5leHRzcQB+AAvLdZiudAAGbm90aWZ5c3EAfgALmsch5XQAB2ZhaWx1cmVzcQB+AAsGZQ8XdAAHdW5hcHBseXNxAH4AC+r5pCx0AAdjdXJyaWVkc3EAfgALOt0TuHQAA3x8fHNxAH4ACzjmXNt0AAdzdWNjZXNzc3EAfgAL00hs/HQADXN0cmluZ0xpdGVyYWxzcQB+AAsJOFTldAAEd2FpdHNxAH4AC/buOSJ0AAEqc3EAfgAL+C28hnQABmFjY2VwdHNxAH4AC0p9FLV0AA5jb3B5JGRlZmF1bHQkMnNxAH4AC/FyVlx0AA0kYXNJbnN0YW5jZU9mc3EAfgALWhZ91XQAA29wdHNxAH4AC9+Ue790AAptYXBQYXJ0aWFsc3EAfgALn7lU93QABmNvbW1pdHNxAH4AC+I1R390AA9maWx0ZXJXaXRoRXJyb3JzcQB+AAsmh2+2dAAHY29tcG9zZXNxAH4AC0BKqER0AAtQYXJzZVJlc3VsdHNxAH4ACybKnTV0AAxQYXJzZVByb2dyYW1zcQB+AAv+gg49dAADbWFwc3EAfgAL1AeWl3QADHByb2R1Y3RBcml0eXNxAH4AC2YCLpl0AAZlcXVhbHNzcQB+AAv2jyRWdAAKcG9zaXRpb25lZHNxAH4ACy8/JC90AAVFcnJvcnNxAH4AC5UhY250AARyZXBOc3EAfgALkTfUXXQADWRlY2ltYWxOdW1iZXJzcQB+AAupZzXzdAAMYXNJbnN0YW5jZU9mc3EAfgALoIV1P3QABnJlc3VsdHNxAH4AC5vaGHB0AAxzeW5jaHJvbml6ZWRzcQB+AAuaudu+dAAJTm9TdWNjZXNzc3EAfgALtFAgmXQABnBocmFzZXNxAH4ACzT3Xht0AA0kaXNJbnN0YW5jZU9mc3EAfgALfglIzXQAB2FuZFRoZW5zcQB+AAsdyrQRdAACfj5zcQB+AAs3TkN/dAAGdHVwbGVkc3EAfgAL/fN23nQAAXxzcQB+AAvO6dxodAAIY2FuRXF1YWxzcQB+AAv/bt5odAAEcmVwMXNxAH4AC883NS10AAI+PnNxAH4AC3UaKWF0AA1wcm9kdWN0UHJlZml4c3EAfgAL6INFBHQACHBhcnNlQWxsc3EAfgALMV6fOXQABiR0aWxkZXNxAH4ACwzrKd10AAlub3RpZnlBbGxzcQB+AAsM241CdAAFbmFtZWRzcQB+AAvSyAY2dAACXzJzcQB+AAt0VaQsdAAHRmFpbHVyZXNxAH4AC+W2Iql0AANeXl5zcQB+AAts5v+8dAAMaXNJbnN0YW5jZU9mc3EAfgALy5v36XQABmZpbHRlcnNxAH4AC0XTUld0AAY8aW5pdD5zcQB+AAt3YSHNdAAFaWRlbnRzcQB+AAuqIaZrdAAERWxlbXNxAH4AC3Q+yNF0AAVJbnB1dHNxAH4AC3PKe4x0AAdyZXAxc2Vwc3EAfgALSjzxsXQABWFwcGx5c3EAfgALUQIZXHQACnN1Y2Nlc3NmdWxzcQB+AAvChQLtdAAKZXhwcmVzc2lvbnNxAH4AC9khuIp0AAdmbGF0TWFwc3EAfgALA9MDjnQACWdldE9yRWxzZXNxAH4AC8anGw10AAp3aGl0ZVNwYWNlc3EAfgALzczwIXQABXBhcnNlc3EAfgALFSagXnQAAj09c3EAfgAL27atqnQAC2FjY2VwdE1hdGNoc3EAfgAL4ps023QABWNsb25lc3EAfgALry3qHnQADnNraXBXaGl0ZXNwYWNlc3EAfgALqLhfDXQAAl8xc3EAfgALxhND+nQAA25vdHNxAH4AC40c47V0AAYkaW5pdCRzcQB+AAuHFASCdAABP3NxAH4AC1Xckgd0AAJeP3NxAH4AC+M8Q0x0AARuZXh0c3EAfgALeaq/SnQACGFjY2VwdElmc3EAfgALR6y3R3QABm1rTGlzdHNxAH4ACzj4Rkh0AARjb3B5c3EAfgALe8Uq7HQAEGhhbmRsZVdoaXRlU3BhY2VzcQB+AAtAjHz1dAALd2hvbGVOdW1iZXJzcQB+AAuqjQOLdAAIdG9TdHJpbmdzcQB+AAupS02tdAADZXJyc3EAfgALz77ScnQAA21zZ3NxAH4AC0C2kxx0AAErc3EAfgALPHpS73QAE2Zsb2F0aW5nUG9pbnROdW1iZXJzcQB+AAuASgNUdAACIT1zcQB+AAsWVcctdAAEaW50b3NxAH4AC2QDQAN0AANnZXRzcQB+AAscBSBbdAASd2l0aEZhaWx1cmVNZXNzYWdlc3EAfgALVAImCnQACGdldENsYXNzc3EAfgALeQw9wXQABWd1YXJkc3EAfgALpcZaC3QADmNvcHkkZGVmYXVsdCQxc3EAfgAL6ReNNHQAB2NoYWlubDFzcQB+AAvoqF/pdAAGUGFyc2Vyc3EAfgALwtBOJXQAB1N1Y2Nlc3NzcQB+AAuv75eJdAADcmVwc3EAfgALI4QBjXQAB2lzRW1wdHlzcQB+AAv5C7BsdAACbmVzcQB+AAsi1sEudAACPH5zcQB+AAsArhDidAAJRXhwUGFyc2Vyc3EAfgALbF7fmnQAAX5zcQB+AAuuwR6hdAAKT25jZVBhcnNlcnNxAH4AC8R2oyB0AARlbGVtc3EAfgALRXH8NHQACWFjY2VwdFNlcXNxAH4AC9UiGHZ0AAJlcXNxAH4AC+ZMdPJ0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAtEglOvdAADbG9nc3EAfgALsYJvDnQABnJlcHNlcHNxAH4AC1zOrPR0AAJ+IXNxAH4AC8CaOV90AAIjI3NxAH4ACxtX0DJ0AAhmaW5hbGl6ZXNxAH4AC8DBqSd0AA5wcm9kdWN0RWxlbWVudHNxAH4ACyePck50AAhoYXNoQ29kZXNxAH4AC1NFze90AAdjaGFpbnIxc3EAfgALen07e3QABmFwcGVuZHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AQN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4A23VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAGnNjYWxhLmFubm90YXRpb24ubWlncmF0aW9uc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+ARtzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4BA0wACWluaGVyaXRlZHEAfgEDTAAHcGFyZW50c3EAfgEDeHEAfgEgc3EAfgEbdXEAfgD+AAAAAHNxAH4BG3VxAH4A/gAAAABzcQB+ARt1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AR90ABBKYXZhVG9rZW5QYXJzZXJzc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgEfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAFc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNxAH4BOHQABHV0aWxzcQB+ATh0AAdwYXJzaW5nc3EAfgE4dAAKY29tYmluYXRvcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgE5c3EAfgEsdAAMUmVnZXhQYXJzZXJzcQB+ATJzcQB+ASx0AAdQYXJzZXJzcQB+ATJzcQB+ASx0AAZPYmplY3RzcQB+ATBzcQB+ATN1cQB+ATYAAAADc3EAfgE4dAAEamF2YXNxAH4BOHQABGxhbmdxAH4BQ3NxAH4BLHQAA0FueXNxAH4BMHNxAH4BM3VxAH4BNgAAAAJzcQB+AThxAH4BO3EAfgFDc3EAfgEAcQB+AQ11cQB+AQ4AAAAAc3EAfgEQAHEAfgBBdXEAfgESAAAAAH5xAH4BFHQABk1vZHVsZXVxAH4BGAAAAAF0ABpzY2FsYS5hbm5vdGF0aW9uLm1pZ3JhdGlvbnNxAH4BG3EAfgEhc3EAfgEbc3EAfgEjc3EAfgEbdXEAfgD+AAAAAHNxAH4BG3VxAH4A/gAAAABzcQB+ARt1cQB+ASoAAAAGc3EAfgEsdAAJRXhwUGFyc2Vyc3EAfgEwc3EAfgEzdXEAfgE2AAAAAXEAfgFDc3EAfgEsdAAQSmF2YVRva2VuUGFyc2Vyc3NxAH4BMHNxAH4BM3VxAH4BNgAAAAVzcQB+AThxAH4BO3NxAH4BOHQABHV0aWxzcQB+ATh0AAdwYXJzaW5nc3EAfgE4dAAKY29tYmluYXRvcnEAfgFDc3EAfgEsdAAMUmVnZXhQYXJzZXJzcQB+AW9zcQB+ASx0AAdQYXJzZXJzcQB+AW9zcQB+ASxxAH4BSXNxAH4BMHNxAH4BM3VxAH4BNgAAAANzcQB+AThxAH4BTnNxAH4BOHEAfgFQcQB+AUNzcQB+ASxxAH4BUnNxAH4BMHNxAH4BM3VxAH4BNgAAAAJzcQB+AThxAH4BO3EAfgFDdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVxVcctDdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQALi9ob21lL29saXZlci9TV1AvQUJQL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTr+LtvDY7HTt8/5ruZDu22gaA59Q==
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwBH49kwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwNzjKFXQABm5vdGlmeXNxAH4ADKSnjG10ABNjaGVja1Byb2dyYW1HcmFtbWVyc3EAfgAMhEbg3XQABHdhaXRzcQB+AAzWPdApdAANJGFzSW5zdGFuY2VPZnNxAH4ADMEDZP90AA9ldmFsdWF0ZVByb2dyYW1zcQB+AAy3sBCRdAAGZXF1YWxzc3EAfgAMrE5qKnQADGFzSW5zdGFuY2VPZnNxAH4ADP0CQk90AAxzeW5jaHJvbml6ZWRzcQB+AAwz8TLqdAANJGlzSW5zdGFuY2VPZnNxAH4ADN+0stN0AARtYWluc3EAfgAMQC/57HQACW5vdGlmeUFsbHNxAH4ADErst0h0AAxpc0luc3RhbmNlT2ZzcQB+AAxKqhgjdAACPT1zcQB+AAxoHJPcdAAFY2xvbmVzcQB+AAw0lE/EdAAOU1dQSW50ZXJwcmV0ZXJzcQB+AAzQwZWxdAAfY2hlY2tQcm9ncmFtR3JhbW1lclN0cmluZ1Jlc3VsdHNxAH4ADLj8JnF0AAh0b1N0cmluZ3NxAH4ADCrBpS90AAIhPXNxAH4ADJHqrkt0AAhnZXRDbGFzc3NxAH4ADE2Nw4p0AAJuZXNxAH4ADJfMhUV0AAJlcXNxAH4ADAXzhn90AAIjI3NxAH4ADAAkskl0AAhmaW5hbGl6ZXNxAH4ADDq/SbB0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AK3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGNzcQB+AF51cQB+AEIAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEhxAH4AUXVxAH4AUgAAAABzcQB+AFQAcQB+ACF1cQB+AFYAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYnQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH51cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBreHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBZdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgByWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBic3EAfgBxdAAFQXJyYXlxAH4Ad3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBxdAAGU3RyaW5nc3EAfgB1c3EAfgB4dXEAfgB7AAAAA3NxAH4AfXQABGphdmFzcQB+AH10AARsYW5ncQB+AIJzcQB+AF51cQB+AEIAAAAAc3EAfgBedXEAfgCWAAAAAnNxAH4AcXQABk9iamVjdHEAfgCac3EAfgBxdAADQW55cQB+AHd1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXFVxy0N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAuL2hvbWUvb2xpdmVyL1NXUC9BQlAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFBE8r+Q1tmk3Xir5ALJQedLbuWvy
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwHgSr+gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAApc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwuaWOSnQABm5vdGlmeXNxAH4ADG6tHAB0AARib2R5c3EAfgAMuFuK5nQABHdhaXRzcQB+AAzF3VPfdAAHRXhwTGlzdHNxAH4ADCNdOYZ0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADHl24l10AA0kYXNJbnN0YW5jZU9mc3EAfgAMRq8iSHQAC0V4cEZ1bmN0aW9uc3EAfgAM22JFzXQACkV4cEJvb2xlYW5zcQB+AAw1l10edAACeHNzcQB+AAyI8QM6dAAMcHJvZHVjdEFyaXR5c3EAfgAMgkTnm3QABmVxdWFsc3NxAH4ADLM/Wf50AAxhc0luc3RhbmNlT2ZzcQB+AAyiMREpdAAFcHJpbnRzcQB+AAzOtiNPdAAMc3luY2hyb25pemVkc3EAfgAMEjbcEXQADSRpc0luc3RhbmNlT2ZzcQB+AAzqVTS1dAAIRXhwVmFsdWVzcQB+AAwpapK0dAAIY2FuRXF1YWxzcQB+AAxdy36SdAANcHJvZHVjdFByZWZpeHNxAH4ADFMANLF0AAFpc3EAfgAMSF4AaXQACW5vdGlmeUFsbHNxAH4ADMehNul0AAxpc0luc3RhbmNlT2ZzcQB+AAy7OCEJdAANUHJldHR5UHJpbnRlcnNxAH4ADN33g/10AAY8aW5pdD5zcQB+AAxPr+yMdAABYnNxAH4ADI1bP8p0AAI9PXNxAH4ADMY/U+p0AAVjbG9uZXNxAH4ADDS7jnt0AAYkaW5pdCRzcQB+AAy6BOAldAAKRXhwSW50ZWdlcnNxAH4ADNuIQvd0AARjb3B5c3EAfgAMZ7qtbHQACHRvU3RyaW5nc3EAfgAMQgf7ynQAAiE9c3EAfgAM3lRmMnQACGdldENsYXNzc3EAfgAMTmn5f3QADmNvcHkkZGVmYXVsdCQxc3EAfgAMStP0JHQAAm5lc3EAfgAMuNSnsHQACnBhcmFtZXRlcnNzcQB+AAwC5B9VdAACZXFzcQB+AAxU3BOKdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMYVNTC3QAAiMjc3EAfgAMcHGurnQACGZpbmFsaXplc3EAfgAM8IisTnQADnByb2R1Y3RFbGVtZW50c3EAfgAMUSOqaXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AaXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwCXEAfgAtdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIBzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AaUwACWluaGVyaXRlZHEAfgBpTAAHcGFyZW50c3EAfgBpeHEAfgCFc3EAfgCAdXEAfgBkAAAAAHNxAH4AgHVxAH4AZAAAAABzcQB+AIB1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIR0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AJ10AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ5zcQB+AJF0AANBbnlzcQB+AJVzcQB+AJh1cQB+AJsAAAACc3EAfgCddAAFc2NhbGFxAH4ApHNxAH4AZnEAfgBzdXEAfgB0AAAAAHNxAH4AdgBxAH4ARXVxAH4AeAAAAAB+cQB+AHp0AAhDbGFzc0RlZnVxAH4AfgAAAABzcQB+AIBxAH4AhnNxAH4AgHNxAH4AiHNxAH4AgHVxAH4AZAAAAABzcQB+AIB1cQB+AGQAAAAAc3EAfgCAdXEAfgCPAAAAB3NxAH4AkXQADFNlcmlhbGl6YWJsZXNxAH4AlXNxAH4AmHVxAH4AmwAAAAJzcQB+AJ1xAH4Aq3EAfgCkc3EAfgCRcQB+AL1zcQB+AJVzcQB+AJh1cQB+AJsAAAADc3EAfgCdcQB+AKBzcQB+AJ10AAJpb3EAfgCkc3EAfgCRdAAHUHJvZHVjdHEAfgC+c3EAfgCRdAAGRXF1YWxzcQB+AL5zcQB+AJF0AAhFeHBWYWx1ZXNxAH4AlXNxAH4AmHVxAH4AmwAAAAFxAH4ApHNxAH4AkXEAfgCUc3EAfgCVc3EAfgCYdXEAfgCbAAAAA3NxAH4AnXEAfgCgc3EAfgCdcQB+AKJxAH4ApHNxAH4AkXEAfgCmcQB+AL5zcQB+AGZxAH4Ac3VxAH4AdAAAAABzcQB+AHYAcQB+ABV1cQB+AHgAAAAAcQB+ALB1cQB+AH4AAAAAc3EAfgCAcQB+AIZzcQB+AIBzcQB+AIhzcQB+AIB1cQB+AGQAAAAAc3EAfgCAdXEAfgBkAAAAAHNxAH4AgHVxAH4AjwAAAAdzcQB+AJFxAH4AvXNxAH4AlXNxAH4AmHVxAH4AmwAAAAJzcQB+AJ1xAH4Aq3EAfgCkc3EAfgCRcQB+AL1zcQB+AJVzcQB+AJh1cQB+AJsAAAADc3EAfgCdcQB+AKBzcQB+AJ10AAJpb3EAfgCkc3EAfgCRcQB+AMpxAH4A6HNxAH4AkXQABkVxdWFsc3EAfgDoc3EAfgCRdAAIRXhwVmFsdWVzcQB+AJVzcQB+AJh1cQB+AJsAAAABcQB+AKRzcQB+AJFxAH4AlHNxAH4AlXNxAH4AmHVxAH4AmwAAAANzcQB+AJ1xAH4AoHNxAH4AnXEAfgCicQB+AKRzcQB+AJFxAH4ApnEAfgDoc3EAfgBmcQB+AHN1cQB+AHQAAAAAc3EAfgB2AHEAfgAbdXEAfgB4AAAAAHEAfgCwdXEAfgB+AAAAAHNxAH4AgHEAfgCGc3EAfgCAc3EAfgCIc3EAfgCAdXEAfgBkAAAAAHNxAH4AgHVxAH4AZAAAAABzcQB+AIB1cQB+AI8AAAAHc3EAfgCRcQB+AL1zcQB+AJVzcQB+AJh1cQB+AJsAAAACc3EAfgCdcQB+AKtxAH4ApHNxAH4AkXEAfgC9c3EAfgCVc3EAfgCYdXEAfgCbAAAAA3NxAH4AnXEAfgCgc3EAfgCddAACaW9xAH4ApHNxAH4AkXEAfgDKcQB+ARFzcQB+AJF0AAZFcXVhbHNxAH4BEXNxAH4AkXQACEV4cFZhbHVlc3EAfgCVc3EAfgCYdXEAfgCbAAAAAXEAfgCkc3EAfgCRcQB+AJRzcQB+AJVzcQB+AJh1cQB+AJsAAAADc3EAfgCdcQB+AKBzcQB+AJ1xAH4AonEAfgCkc3EAfgCRcQB+AKZxAH4BEXNxAH4AZnEAfgBzdXEAfgB0AAAAAHNxAH4AdgBxAH4AHXVxAH4AeAAAAABxAH4AsHVxAH4AfgAAAABzcQB+AIBxAH4AhnNxAH4AgHNxAH4AiHNxAH4AgHVxAH4AZAAAAABzcQB+AIB1cQB+AGQAAAAAc3EAfgCAdXEAfgCPAAAAB3NxAH4AkXEAfgC9c3EAfgCVc3EAfgCYdXEAfgCbAAAAAnNxAH4AnXEAfgCrcQB+AKRzcQB+AJFxAH4AvXNxAH4AlXNxAH4AmHVxAH4AmwAAAANzcQB+AJ1xAH4AoHNxAH4AnXQAAmlvcQB+AKRzcQB+AJFxAH4AynEAfgE6c3EAfgCRdAAGRXF1YWxzcQB+ATpzcQB+AJF0AAhFeHBWYWx1ZXNxAH4AlXNxAH4AmHVxAH4AmwAAAAFxAH4ApHNxAH4AkXEAfgCUc3EAfgCVc3EAfgCYdXEAfgCbAAAAA3NxAH4AnXEAfgCgc3EAfgCdcQB+AKJxAH4ApHNxAH4AkXEAfgCmcQB+ATpzcQB+AGZxAH4Ac3VxAH4AdAAAAABzcQB+AHYAcQB+ADl1cQB+AHgAAAAAfnEAfgB6dAAGTW9kdWxldXEAfgB+AAAAAHNxAH4AgHEAfgCGc3EAfgCAc3EAfgCIc3EAfgCAdXEAfgBkAAAAAHNxAH4AgHVxAH4AZAAAAABzcQB+AIB1cQB+AI8AAAACc3EAfgCRcQB+AJRzcQB+AJVzcQB+AJh1cQB+AJsAAAADc3EAfgCdcQB+AKBzcQB+AJ1xAH4AonEAfgCkc3EAfgCRcQB+AKZzcQB+AJVzcQB+AJh1cQB+AJsAAAACc3EAfgCdcQB+AKtxAH4ApHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcVXHLQ3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AC4vaG9tZS9vbGl2ZXIvU1dQL0FCUC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUawLlj2oXWFVthevjiy6er81L+aw=
+external apis:
+0 items
+source infos:
+5 items
+/home/oliver/SWP/ABP/src/main/scala/AST.scala -> 
+AAAAAAAAAAA=
+/home/oliver/SWP/ABP/src/main/scala/Interpreter.scala -> 
+AAAAAAAAAAA=
+/home/oliver/SWP/ABP/src/main/scala/Parser.scala -> 
+AAAAAAAAAAA=
+/home/oliver/SWP/ABP/src/main/scala/SWPInterpreter.scala -> 
+AAAAAAAAAAA=
+/home/oliver/SWP/ABP/src/main/scala/Value.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXFVxy0N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALi9ob21lL29saXZlci9TV1AvQUJQL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv

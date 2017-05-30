@@ -1,0 +1,9 @@
+;reload; */*:dumpStructureTo /tmp/sbt-structure.xml download resolveClassifiers
+compile
+run test.exp
+test
+run test.exp
+test
+compile
+test
+; {file:/home/oliver/SWP/ABP/}abp/products; {file:/home/oliver/SWP/ABP/}abp/test:products

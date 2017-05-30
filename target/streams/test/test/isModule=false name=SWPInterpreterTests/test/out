@@ -1,0 +1,105 @@
+[0m[[0minfo[0m] [0m[32mSWPInterpreterTests:[0m[0m
+[0m[[0minfo[0m] [0m[31m- Parser minimal example *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ExpParser.expression(Parser.scala:5)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ParseProgram$.parse(Parser.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreter$.checkProgramGrammer(SWPInterpreter.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreterTests.$anonfun$new$1(SWPInterpreterTests.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Parser short program *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ExpParser.expression(Parser.scala:5)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ParseProgram$.parse(Parser.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreter$.checkProgramGrammer(SWPInterpreter.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreterTests.$anonfun$new$2(SWPInterpreterTests.scala:24)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Parser defect program *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ExpParser.expression(Parser.scala:5)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ParseProgram$.parse(Parser.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreter$.checkProgramGrammer(SWPInterpreter.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreterTests.$anonfun$new$3(SWPInterpreterTests.scala:38)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Interpreter program with only build in functions *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ExpParser.expression(Parser.scala:5)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ParseProgram$.parse(Parser.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreter$.evaluateProgram(SWPInterpreter.scala:17)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreterTests.$anonfun$new$4(SWPInterpreterTests.scala:46)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Interpreter short program *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ExpParser.expression(Parser.scala:5)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ParseProgram$.parse(Parser.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreter$.evaluateProgram(SWPInterpreter.scala:17)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreterTests.$anonfun$new$5(SWPInterpreterTests.scala:59)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Interpreter let expr *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ExpParser.expression(Parser.scala:5)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ParseProgram$.parse(Parser.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreter$.evaluateProgram(SWPInterpreter.scala:17)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreterTests.$anonfun$new$6(SWPInterpreterTests.scala:72)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Interpreter even/odd *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ExpParser.expression(Parser.scala:5)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ParseProgram$.parse(Parser.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreter$.evaluateProgram(SWPInterpreter.scala:17)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreterTests.$anonfun$new$7(SWPInterpreterTests.scala:87)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- Interpreter list comprehensions *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ExpParser.expression(Parser.scala:5)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ParseProgram$.parse(Parser.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreter$.evaluateProgram(SWPInterpreter.scala:17)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at SWPInterpreterTests.$anonfun$new$8(SWPInterpreterTests.scala:98)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

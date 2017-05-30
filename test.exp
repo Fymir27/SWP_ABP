@@ -1,0 +1,4 @@
+let 
+  foo = (a,b) => add(a, b)
+in
+  foo(1,2)
